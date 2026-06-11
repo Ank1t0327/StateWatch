@@ -31,7 +31,7 @@ do
             bash modules/disk_monitor.sh
             ;;
         4)
-            echo "GoodBye!!"
+            echo "GoodBye!"
             exit 0
             ;;
         *)
