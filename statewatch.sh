@@ -22,8 +22,7 @@ do
 
     case $choice in          # Bash version of switch(choice)
         1) 
-            echo "CPU Monitor Coming Soon..."
-            read -p "Press Enter to continue..."
+            bash modules/cpu_monitor.sh
             ;;
         2) 
             echo "Memory Monitor Coming Soon..."
