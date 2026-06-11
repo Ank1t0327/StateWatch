@@ -25,8 +25,7 @@ do
             bash modules/cpu_monitor.sh
             ;;
         2) 
-            echo "Memory Monitor Coming Soon..."
-            read -p "Press Enter to continue..."
+            bash modules/memory_monitor.sh
             ;;
         3)
             echo "Disk Monitor Coming Soon..."
